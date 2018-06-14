@@ -1,6 +1,12 @@
-.\.header{
-    font-size: 50px;
+#hangman {
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    color: #ffffff;
+    width: 50%;
+    border: 3px dotted green;
+    padding: 10px;
+    background: #000000;
+    margin: auto;
 }
-.\.Instruction{
-    color: #FF000C;
+html {
+    background-color: #000000;
 }
