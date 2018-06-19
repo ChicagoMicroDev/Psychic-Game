@@ -17,7 +17,7 @@ document.onkeyup = function(event){
             var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
 
             if (letterPick.indexOf(userGuess) < 0 && alphabet.indexOf(userGuess) >= 0) {
-                guesses[guesses.length]= userGuess;
+                letterPick[letterPick.length]= userGuess;
                 guesses--
             }
         
